@@ -1,4 +1,4 @@
-# Form Filler Chrome Extension
+# Auto Form Filler using AI - Chrome Extension
 
 ## Project Overview
 
