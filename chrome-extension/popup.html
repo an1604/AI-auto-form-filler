@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Form Filler</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        #fileContent {
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            padding: 5px;
+            height: 100px;
+            overflow: auto;
+        }
+
+        #upload,
+        #deleteFile,
+        #submitButton {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #upload {
+            background-color: #28a745;
+        }
+
+        #deleteFile {
+            background-color: #dc3545;
+        }
+
+        #submitButton {
+            background-color: #007bff;
+        }
+
+        #fileContent {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Auto Form Filler</h1>
+    <input type="file" id="upload" accept=".txt" />
+    <button id="deleteFile">Delete File</button>
+    <div id="fileContent">No file uploaded yet.</div>
+    <button id="submitButton">Submit Data</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
