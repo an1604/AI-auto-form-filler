@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Form Filler Chrome Extension** is designed to automate the process of filling dynamic or HTML forms on websites. Using the Google Gemini API, the extension utilizes user data from text or JSON files to accurately populate form fields, saving time and reducing manual input.
+The **Auto Form Filler Chrome Extension** is designed to automate the process of filling dynamic or HTML forms on websites. Using the Google Gemini API, the extension utilizes user data from text or JSON files to accurately populate form fields, saving time and reducing manual input.
 
 ## Features
 
