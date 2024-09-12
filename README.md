@@ -38,7 +38,7 @@ The **Form Filler Chrome Extension** is designed to automate the process of fill
       GEMINI_API_KEY=your_google_gemini_api_key
 5. **Run the Flask application locally:**
       ```bash
-      python api/app.py
+      python app.py
 
 ## Usage
 1. Upload User Data:
