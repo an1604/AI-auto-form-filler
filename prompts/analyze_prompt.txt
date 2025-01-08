@@ -1,0 +1,40 @@
+Analyze the following forms and identify the one that matches a job application form.
+
+Return a JSON structure where:
+- Each form field is mapped to the corresponding value from the provided user data.
+- ALL fields (including empty or null) are preserved in the response.
+- Original attribute names must be retained (e.g., `id`, `class`, etc.).
+
+Make sure you fully follow the format instructions:
+{format_instructions}
+
+DO NOT DROP OR ALTER ANY FIELDS IN YOUR RESPONSE!
+DO NOT provide any introduction, explanation, or outro.
+
+Forms: {forms}
+
+
+### Format Example:
+```json
+{{
+  "forms": [
+    {{
+      "fields": [
+        {{"name": "company", "type": "text", "id": "input-company", "class": ["form-control"], "value": null}},
+        {{"name": "email", "type": "email", "id": "input-email", "class": ["form-control"], "value": ""}}
+      ],
+      "submit_buttons": [
+        {{"text": "Submit", "id": "submit-button-1", "class": ["btn", "btn-primary"]}}
+      ]
+    }},
+    {{
+      "fields": [
+        {{"name": "title", "type": "text", "id": "input-title", "class": ["form-control"], "value": "Software Engineer"}},
+        {{"name": "department", "type": "select", "id": "input-department", "class": ["form-select"], "value": null}}
+      ],
+      "submit_buttons": [
+        {{"text": "Submit", "id": "submit-button-2", "class": ["btn", "btn-primary"]}}
+      ]
+    }}
+  ]
+}}

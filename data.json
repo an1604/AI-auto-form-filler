@@ -1,0 +1,177 @@
+{
+  "personal_details": {
+    "firstname": "Aviv",
+    "lastname": "Nataf",
+    "full_name": "Aviv Nataf",
+    "email": "nataf12386@gmail.com",
+    "phone": "0522464648",
+    "resume_url": "https://www.dropbox.com/scl/fi/x0idrg04ixsedqfp5wgv3/aviv_nataf_resume.pdf",
+    "cv": "https://www.dropbox.com/scl/fi/x0idrg04ixsedqfp5wgv3/aviv_nataf_resume.pdf",
+    "linkedin": "https://www.linkedin.com/in/aviv-nataf-757aa1247/",
+    "gender": "Male",
+    "languages": [
+      "English (Fluent)",
+      "Hebrew (Proficient)"
+    ]
+  },
+  "summary": "Aspiring software developer with expertise in Python, Java, full-stack development, and experience in AI-driven solutions and cybersecurity. Passionate about creating innovative solutions and contributing to impactful projects in software development, focusing on AI and cybersecurity.",
+  "education": {
+    "degree": "Bachelor of Science in Computer Science",
+    "institution": "The College of Management",
+    "location": "Rishon LeZion",
+    "start_date": "March 2022",
+    "expected_graduation_date": "March 2025",
+    "current_gpa": "81",
+    "school_option": "Other",
+    "are_you_a_student": "yes"
+  },
+  "work_experience": [
+    {
+      "title": "Computer Programming Instructor",
+      "company": "Sunspark College",
+      "location": null,
+      "start_date": "January 2022",
+      "end_date": "September 2024",
+      "responsibilities": [
+        "Designed and delivered a comprehensive curriculum on computer and network systems.",
+        "Taught programming languages (VB, Python, Java) to high school students, focusing on real-world applications.",
+        "Mentored 20-30 students per class, helping them develop independent coding projects and problem-solving skills."
+      ]
+    },
+    {
+      "title": "Intern",
+      "company": "Colman Dev Club Collaboration",
+      "location": null,
+      "start_date": "November 2022",
+      "end_date": "June 2023",
+      "responsibilities": [
+        "Worked on JavaScript and React projects, contributing to front-end development and enhancing web applications.",
+        "Participated in workshops, collaborating with peers to develop and deploy practical web solutions.",
+        "Implemented dynamic features for projects, improving user experience and functionality."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Deceptify",
+      "type": "Final Project for Degree",
+      "description": "An AI-driven project focused on conducting social engineering attacks using generative AI content, like deepfakes, to enhance organizational preparedness against evolving digital threats.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "PyTorch",
+        "Hugging Face"
+      ],
+      "responsibilities": [
+        "Led AI research and integration.",
+        "Developed the backend with Flask.",
+        "Built the core RAG agent for conducting real-time attacks using Zoom and Telegram with voice clone models."
+      ],
+      "results": "Demonstrated innovative AI-driven social engineering attacks and served as a key example of AI integration in cybersecurity projects."
+    },
+    {
+      "name": "Market Ordering Assistance",
+      "type": "Independent Project",
+      "description": "A social media platform with AI assistance for seamless market orders from leading companies.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "SQL",
+        "Redis"
+      ],
+      "responsibilities": [
+        "Developed the entire project from concept to implementation.",
+        "Built a complete system that assists users with market orders, leveraging AI to streamline and personalize the experience."
+      ]
+    },
+    {
+      "name": "JavaFX Book Scrabble Game",
+      "type": "Interactive Game",
+      "description": "An interactive, book-themed Scrabble game that can be played online between users.",
+      "technologies": [
+        "JavaFX"
+      ],
+      "responsibilities": [
+        "Implemented online multiplayer mode, enabling real-time gameplay over the Internet."
+      ]
+    }
+  ],
+  "accomplishments": [
+    {
+      "name": "Oracle & Colman Hackathon",
+      "description": "Specialized in applying data science and big data learning software on the cloud to address agricultural challenges.",
+      "result": "Achieved third place in a hackathon competition."
+    },
+    {
+      "name": "ANAC 2024 Competition",
+      "description": "Participated in the Automated Negotiating Agent Competition (ANAC), an international AI competition focusing on negotiation strategies in multi-agent systems.",
+      "technologies": [
+        "Python",
+        "Algorithms",
+        "Statistical Modeling"
+      ],
+      "result": "Gained hands-on experience in AI, machine learning, and decision-making algorithms."
+    }
+  ],
+  "certifications": [
+    "Certified Deep Learning – Udemy",
+    "Certified Machine Learning – Udemy",
+    "Certified Cybersecurity & Ethical Hacking – Udemy",
+    "OWASP Top 10 WebGoat Assignments Completion"
+  ],
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C",
+      "C++",
+      "JavaScript",
+      "Visual Basic"
+    ],
+    "web_technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "Node.js",
+      "Flask"
+    ],
+    "databases": [
+      "MongoDB",
+      "SQL",
+      "Redis"
+    ],
+    "tools_and_platforms": [
+      "Linux",
+      "Kali Linux",
+      "Docker"
+    ],
+    "devsecops_automation": [
+      "CI/CD pipelines",
+      "Git Actions workflows",
+      "Docker"
+    ],
+    "data_science_ai": [
+      "Data Mining",
+      "Machine Learning",
+      "Deep Learning",
+      "PyTorch",
+      "Hugging Face"
+    ],
+    "version_control": [
+      "Git",
+      "GitHub",
+      "GitLab"
+    ]
+  },
+  "devops_final_project": {
+    "description": "Containerized application with Docker Compose, creating four images, including a secure reverse proxy on port 80.",
+    "details": [
+      "Configured infrastructure using Ansible playbooks for AWS EC2 instances.",
+      "Automated CI/CD with GitHub workflows.",
+      "Conducted comprehensive testing with Selenium.",
+      "Successfully deployed the application on AWS EC2, ensuring secure and efficient production-ready performance."
+    ]
+  },
+  "salary_expectations": "10000"
+}

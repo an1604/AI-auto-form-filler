@@ -1,0 +1,18 @@
+The following JSON structure represents an input field from a form data.
+Your task is to fill the `value` field using the provided user data.
+Follow these instructions:
+
+- For a field where the `name` matches the pattern "How many years of experience do you have in *?", set the `value` field to "2".
+- For any other field:
+  - If you can find a relevant value in the provided user data, use it.
+  - If no relevant information exists, set the `value` field to an empty string (`""`).
+- Retain all other fields and their attributes (e.g., `id`, `class`, `label`, etc.) exactly as they are.
+- Do not add new fields or change the structure of the JSON.
+- Ensure that the updated JSON contains all original fields with their updated `value`.
+- DO NOT provide any introduction, explanation, or outro.
+
+JSON:
+{field}
+
+User Data:
+{user_data}

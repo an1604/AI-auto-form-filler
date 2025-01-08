@@ -1,0 +1,7 @@
+Given the following content of an HTML field, identify the name of the field accurately and concisely for future form-filling processing.
+
+Field content: {content}
+
+- The name must be 3-5 words long.
+- Do not include an introduction, explanation, or conclusion.
+- Return only the identified name.
