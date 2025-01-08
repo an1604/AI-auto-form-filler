@@ -2,15 +2,21 @@
 
 ## Project Overview
 
-The **Auto Form Filler Chrome Extension** is designed to automate the process of filling dynamic or HTML forms on websites. Using the Google Gemini API, the extension utilizes user data from text or JSON files to accurately populate form fields, saving time and reducing manual input.
+The **Auto Form Filler Chrome Extension** is a tool designed to automate the process of filling dynamic or HTML forms on websites. The project leverages AI and communicates with an LLM (Large Language Model) to ensure accurate data population, even for unknown fields. While the Chrome extension interface is available, the actual form-filling functionality is currently managed by the Flask server, with future plans to integrate this feature into the Chrome extension. Contributions to this feature are highly welcomed!
 
 ## Features
 
-- **Automatic Form Filling**: Automatically fills form fields using user data.
-- **Supports JSON and Text Files**: Upload user data in either JSON or text file format.
-- **Integration with Google Gemini API**: Uses advanced AI to match user data with form fields.
-- **Track Filled Forms**: Keeps track of websites where forms have been filled.
-- **User-Friendly Interface**: Easy-to-use Chrome extension interface.
+- **Automatic Form Filling**: Automatically fills form fields using user-provided data.
+- **Supports JSON Files**: Upload a `data.json` file containing personal information (e.g., CV details) to fill forms seamlessly.
+- **Server-Driven Form Filling**: The Flask server handles form submission, ensuring secure and accurate processing.
+- **LLM Integration**: Communicates with a Large Language Model to enhance the accuracy of information filled for unknown fields.
+- **User-Friendly Interface**: Provides an intuitive interface for uploading and managing user data.
+- **Future Enhancements**: Work is ongoing to integrate form-filling capabilities directly into the Chrome extension.
+
+## Requirements
+
+- A `data.json` file containing personal information (e.g., CV details) structured as key-value pairs for form fields.
+- A valid Google Gemini API key (or equivalent).
 
 ## Installation
 
@@ -18,32 +24,63 @@ The **Auto Form Filler Chrome Extension** is designed to automate the process of
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/sajidkassari/Auto-Form-Filler-ai.git
+   git clone https://github.com/an1604/AI-auto-form-filler.git
+```
 
-2. **Go to chrome://extensions/ in Chrome.**
-3. **Enable Developer mode.**
-4. **Click Load unpacked and select the directory containing the extension files.**
+### Flask Backend Setup
 
-## Flask Backend
-1. **Clone the repository and navigate to the api directory.**
-2. **Set up a virtual environment (optional but recommended)**
-      ```bash
-      python -m venv venv
-      source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+1. **Clone the repository and navigate to the `api` directory:**
+
+    ```bash
+    git clone https://github.com/an1604/AI-auto-form-filler.git
+    cd api
+    ```
+
+2. **Set up a virtual environment (optional but recommended):**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
 3. **Install dependencies:**
-      ```bash
-      pip install -r requirements.txt
-4. **Set up environment variables in a .env file:**
-      ```bash
-      GEMINI_API_KEY=your_google_gemini_api_key
-5. **Run the Flask application locally:**
-      ```bash
-      python app.py
 
-## Usage
-1. Upload User Data:
-   Use the popup interface of the Chrome extension to upload user data in JSON or text file format.
-2. Fill Forms:
-   Navigate to a website with a form and click the extension icon to automatically fill the form fields with the uploaded data.
-3. View Last Uploaded File:
-   The extension displays the last uploaded file with options to open or delete it.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set up environment variables in a `.env` file:**
+
+    ```bash
+    GEMINI_API_KEY=your_google_gemini_api_key
+    ```
+
+5. **Run the Flask application locally:**
+
+    ```bash
+    python app.py
+    ```
+
+---
+
+### Usage
+
+1. **Upload User Data:**  
+   Upload a `data.json` file containing all personal information (e.g., CV details) via the Chrome extension or directly to the server.
+
+2. **Fill Forms:**  
+   - The Flask server processes the data and automatically fills the forms.  
+   - Navigate to the target website and use the Chrome extension (or server backend) to populate the form fields.
+
+3. **Enhanced Accuracy:**  
+   The server communicates with an LLM to improve accuracy, especially for unknown or ambiguous fields.
+
+4. **Future Features:**  
+   Integration of form-filling capabilities directly into the Chrome extension is in progress. Contributions to this feature are highly appreciated.
+
+---
+
+### Contributing
+
+We welcome contributions to enhance this project, particularly the integration of form-filling functionality into the Chrome extension. If you're interested, feel free to submit a pull request or reach out to the repository owner.
+
