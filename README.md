@@ -49,18 +49,13 @@ The **Auto Form Filler Chrome Extension** is a tool designed to automate the pro
     pip install -r requirements.txt
     ```
 
-4. **Set up environment variables in a `.env` file:**
 
-    ```bash
-    GEMINI_API_KEY=your_google_gemini_api_key
-    ```
-
-5. **Run the Flask application locally:**
+4. **Run the Flask application locally:**
 
     ```bash
     python app.py
     ```
-
+```
 ---
 
 ### Usage
