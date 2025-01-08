@@ -33,9 +33,7 @@ The **Auto Form Filler Chrome Extension** is a tool designed to automate the pro
 
     ```bash
     git clone https://github.com/an1604/AI-auto-form-filler.git
-    cd api
-    ```
-```
+   ```
 
 2. **Set up a virtual environment (optional but recommended):**
 
