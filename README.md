@@ -35,6 +35,7 @@ The **Auto Form Filler Chrome Extension** is a tool designed to automate the pro
     git clone https://github.com/an1604/AI-auto-form-filler.git
     cd api
     ```
+```
 
 2. **Set up a virtual environment (optional but recommended):**
 
@@ -42,13 +43,13 @@ The **Auto Form Filler Chrome Extension** is a tool designed to automate the pro
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
-
+```
 3. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
-
+```
 
 4. **Run the Flask application locally:**
 
